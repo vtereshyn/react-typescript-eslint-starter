@@ -1,8 +1,10 @@
 # React Typescript Starter with Eslint and Babel
 
- <a href="https://reactjs.org/" align="center">
+<div align="center">
+ <a href="https://reactjs.org/">
     <img alt="react" src="https://cdn.worldvectorlogo.com/logos/react.svg" width="300">
   </a>
+</div>
   
 <div align="center">
   <img alt="eslint" src="https://cdn.worldvectorlogo.com/logos/eslint.svg" width="150" />
