@@ -1,0 +1,77 @@
+$welcome-page-text-color: #294E80;
+
+.welcome {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  .wrapper {
+    margin: 0 auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+  }
+
+  .logo {
+    width: 300px;
+
+    img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .title {
+    font-size: 2.5em;
+    color: $welcome-page-text-color;
+    margin: 0 0 25px;
+  }
+
+  .instructionsTitle {
+    font-size: 1.3em;
+    color: $welcome-page-text-color;
+    margin: 0 0 10px;
+    align-self: flex-start;
+
+    &:not(:first-child) {
+      margin: 20px 0 10px;
+    }
+  }
+
+  code {
+    background: #f1f1f1;
+    border-radius: 10px;
+    padding: 25px;
+    width: 100%;
+  }
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.eslint {
+  margin-right: 20px;
+  width: 100px;
+
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.typescript {
+  composes: eslint;
+}
+
+.babel {
+  composes: eslint;
+  width: 300px;
+}

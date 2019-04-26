@@ -1,0 +1,43 @@
+{
+  "presets": [
+    "@babel/typescript",
+    "@babel/preset-react",
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": ["last 2 versions"]
+        },
+        "useBuiltIns": "entry",
+        "corejs": "3.0.0"
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "react-css-modules",
+      {
+        "webpackHotModuleReloading": true,
+        "filetypes": {
+          ".scss": {
+            "syntax": "postcss-scss"
+          }
+        },
+        "generateScopedName": "[path]___[name]__[local]"
+      }
+    ],
+    "emotion",
+    "lodash",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-throw-expressions",
+    "@babel/plugin-proposal-function-bind",
+    [
+      "react-hot-loader/babel",
+      {
+        "safetyNet": false
+      }
+    ]
+  ]
+}

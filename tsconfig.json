@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "module": "esNext",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "jsx": "react",
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["src", "types/index.d.ts", "./typings.d.ts"],
+  "exclude": ["node_modules", "dist", "compiled", "webpack"]
+}
