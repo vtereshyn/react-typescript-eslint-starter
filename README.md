@@ -12,6 +12,13 @@
   <img alt="typescript" src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" width="150" />
 </div>
 
+## Description
+The problem of typing has long been known to all Javascript developers. Someone resolves it with the help of a Flow, someone with the help of something else, and someone with the help of a TypeScript. This repository allows you to make quick in React Development using TypeScript.
+
+This boilerplate uses Webpack, Eslint, CSS Modules and Babel.
+
+Pull Requests are very welcome!
+
 ## Usage
 
 ```sh
