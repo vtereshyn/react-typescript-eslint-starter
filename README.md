@@ -17,6 +17,8 @@ The problem of typing has long been known to all Javascript developers. Someone 
 
 This boilerplate uses Webpack, Eslint, CSS Modules and Babel.
 
+<i>You don't need</i> <strong>Create React App</strong>
+
 Pull Requests are very welcome!
 
 ## Usage
