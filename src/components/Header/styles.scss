@@ -1,0 +1,25 @@
+.header {
+  padding: 20px;
+  box-shadow: 0 1px 2px 0 rgba(212, 212, 212, 0.5);
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 1.6em;
+  }
+
+  .githubLogo {
+    display: block;
+    width: 35px;
+    height: 35px;
+
+    img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}

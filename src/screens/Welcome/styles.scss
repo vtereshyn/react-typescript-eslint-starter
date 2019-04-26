@@ -1,9 +1,10 @@
 $welcome-page-text-color: #294E80;
 
 .welcome {
-  min-height: 100vh;
+  min-height: calc(100vh - 75px);
   display: flex;
   align-items: center;
+  overflow: auto;
 
   .wrapper {
     margin: 0 auto;
@@ -23,12 +24,6 @@ $welcome-page-text-color: #294E80;
       width: 100%;
       max-width: 100%;
     }
-  }
-
-  .title {
-    font-size: 2.5em;
-    color: $welcome-page-text-color;
-    margin: 0 0 25px;
   }
 
   .instructionsTitle {
