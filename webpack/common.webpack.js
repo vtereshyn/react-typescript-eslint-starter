@@ -14,7 +14,8 @@ module.exports = {
   entry: ['babel-polyfill', '../src/index.dev.tsx'],
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: '[name].js'
+    filename: '[name].js',
+    publicPath: ''
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],

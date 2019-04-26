@@ -21,9 +21,9 @@ module.exports = merge({
   mode: 'production',
   devtool: false,
   output: {
-    path: resolve(__dirname, '../dist/public'),
+    path: resolve(__dirname, '../dist'),
     filename: 'js/[name].[chunkhash].min.js',
-    publicPath: '/'
+    publicPath: ''
   },
   module: {
     rules: [
@@ -64,7 +64,7 @@ module.exports = merge({
     new webpack.SourceMapDevToolPlugin({
       exclude: /node_modules/,
       columns: true,
-      test: /\.tsx?|\.ts?|\.jsx?|\.js?$/,
+      test: /\.tsx?|\.ts?|\.js?$/,
       filename: 'js/[name].[chunkhash].js.map'
     })
   ]

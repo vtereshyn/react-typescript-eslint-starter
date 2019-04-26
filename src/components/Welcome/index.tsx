@@ -7,19 +7,19 @@ const Welcome: FunctionComponent<{}> = () => (
     <div className={s.wrapper}>
       <div className={s.container}>
         <figure className={s.logo}>
-          <img src="../../assets/img/welcome-page/tsx-logo.svg" alt="Logo" />
+          <img src="assets/img/welcome-page/tsx-logo.svg" alt="Logo" />
         </figure>
         <h1 className={s.title}>React TypeScript starter</h1>
 
         <section className={s.logos}>
           <figure className={s.eslint}>
-            <img src="../../assets/img/welcome-page/eslint.svg" alt="Logo" />
+            <img src="assets/img/welcome-page/eslint.svg" alt="Logo" />
           </figure>
           <figure className={s.babel}>
-            <img src="../../assets/img/welcome-page/babel.svg" alt="Logo" />
+            <img src="assets/img/welcome-page/babel.svg" alt="Logo" />
           </figure>
           <figure className={s.typescript}>
-            <img src="../../assets/img/welcome-page/ts.svg" alt="Logo" />
+            <img src="assets/img/welcome-page/ts.svg" alt="Logo" />
           </figure>
         </section>
 
