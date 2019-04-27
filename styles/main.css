@@ -400,54 +400,68 @@ h6 {
 .src-assets-scss-___app__hide {
   display: none; }
 
-.src-components-Welcome-___styles__welcome {
-  min-height: 100vh;
+.src-components-Header-___styles__header {
+  padding: 20px;
+  box-shadow: 0 1px 2px 0 rgba(212, 212, 212, 0.5); }
+  .src-components-Header-___styles__header .src-components-Header-___styles__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .src-components-Header-___styles__header .src-components-Header-___styles__title {
+    font-size: 1.6em; }
+  .src-components-Header-___styles__header .src-components-Header-___styles__githubLogo {
+    display: block;
+    width: 35px;
+    height: 35px; }
+    .src-components-Header-___styles__header .src-components-Header-___styles__githubLogo img {
+      width: 100%;
+      max-width: 100%; }
+
+.src-screens-Welcome-___styles__welcome {
+  min-height: calc(100vh - 75px);
   display: flex;
-  align-items: center; }
-  .src-components-Welcome-___styles__welcome .src-components-Welcome-___styles__wrapper {
+  align-items: center;
+  overflow: auto; }
+  .src-screens-Welcome-___styles__welcome .src-screens-Welcome-___styles__wrapper {
     margin: 0 auto; }
-  .src-components-Welcome-___styles__welcome .src-components-Welcome-___styles__container {
+  .src-screens-Welcome-___styles__welcome .src-screens-Welcome-___styles__container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 25px 0; }
-  .src-components-Welcome-___styles__welcome .src-components-Welcome-___styles__logo {
+  .src-screens-Welcome-___styles__welcome .src-screens-Welcome-___styles__logo {
     width: 300px; }
-    .src-components-Welcome-___styles__welcome .src-components-Welcome-___styles__logo img {
+    .src-screens-Welcome-___styles__welcome .src-screens-Welcome-___styles__logo img {
       width: 100%;
       max-width: 100%; }
-  .src-components-Welcome-___styles__welcome .src-components-Welcome-___styles__title {
-    font-size: 2.5em;
-    color: #294E80;
-    margin: 0 0 25px; }
-  .src-components-Welcome-___styles__welcome .src-components-Welcome-___styles__instructionsTitle {
+  .src-screens-Welcome-___styles__welcome .src-screens-Welcome-___styles__instructionsTitle {
     font-size: 1.3em;
     color: #294E80;
     margin: 0 0 10px;
     align-self: flex-start; }
-    .src-components-Welcome-___styles__welcome .src-components-Welcome-___styles__instructionsTitle:not(:first-child) {
+    .src-screens-Welcome-___styles__welcome .src-screens-Welcome-___styles__instructionsTitle:not(:first-child) {
       margin: 20px 0 10px; }
-  .src-components-Welcome-___styles__welcome code {
+  .src-screens-Welcome-___styles__welcome code {
     background: #f1f1f1;
     border-radius: 10px;
     padding: 25px;
     width: 100%; }
 
-.src-components-Welcome-___styles__logos {
+.src-screens-Welcome-___styles__logos {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   align-items: center; }
 
-.src-components-Welcome-___styles__eslint {
+.src-screens-Welcome-___styles__eslint {
   margin-right: 20px;
   width: 100px; }
-  .src-components-Welcome-___styles__eslint img {
+  .src-screens-Welcome-___styles__eslint img {
     width: 100%;
     max-width: 100%; }
 
-.src-components-Welcome-___styles__typescript { }
+.src-screens-Welcome-___styles__typescript { }
 
-.src-components-Welcome-___styles__babel {
+.src-screens-Welcome-___styles__babel {
   width: 300px; }
 
