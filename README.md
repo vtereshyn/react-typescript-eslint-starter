@@ -33,11 +33,27 @@ git clone https://github.com/vtereshyn/react-typescript-eslint-starter.git
 
 ### Install
 
+With Yarn:
+
+```sh
+yarn
+```
+
+With NPM:
+
 ```sh
 npm i
 ```
 
 ### Development mode
+
+With Yarn:
+
+```sh
+yarn dev
+```
+
+With NPM:
 
 ```sh
 npm run dev
@@ -45,17 +61,42 @@ npm run dev
 
 ### Run linters
 
+With Yarn:
+
+```sh
+yarn lint
+```
+
+With NPM:
+
 ```sh
 npm run lint
 ```
 
+
 #### Fix lint issues
+
+With Yarn:
+
+```sh
+yarn lint-fix
+```
+
+With NPM:
 
 ```sh
 npm run lint-fix
 ```
 
 ### Build project
+With Yarn:
+
+```sh
+yarn build
+```
+
+With NPM:
+
 ```sh
 npm run build
 ```

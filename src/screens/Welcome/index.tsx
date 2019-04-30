@@ -28,19 +28,19 @@ const Welcome: FunctionComponent<{}> = () => (
 
           <h3 className={s.instructionsTitle}>To start:</h3>
           <code>
-            <p>npm install</p>
-            <p>npm run dev</p>
+            <p>yarn</p>
+            <p>yarn dev</p>
           </code>
 
           <h3 className={s.instructionsTitle}>To build:</h3>
           <code>
-            <p>npm run build</p>
+            <p>yarn build</p>
           </code>
 
           <h3 className={s.instructionsTitle}>To lint:</h3>
           <code>
-            <p>npm run lint</p>
-            <p>npm run lint-fix</p>
+            <p>yarn lint</p>
+            <p>yarn lint-fix</p>
           </code>
         </div>
       </div>
