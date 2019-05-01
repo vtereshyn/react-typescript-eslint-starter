@@ -1,3 +1,9 @@
+<div align="center">
+ https://img.shields.io/github/issues/vtereshyn/react-typescript-eslint-starter.svg
+ https://img.shields.io/github/forks/vtereshyn/react-typescript-eslint-starter.svg
+ https://img.shields.io/github/stars/vtereshyn/react-typescript-eslint-starter.svg
+</div>
+
 # React Typescript Starter with Eslint and Babel
 
 <div align="center">
