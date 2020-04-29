@@ -1,5 +1,5 @@
 /* global module */
-
+import 'react-hot-loader/patch';
 import { AppContainer } from 'react-hot-loader';
 import React, { ComponentClass, FunctionComponent } from 'react';
 import ReactDOM from 'react-dom';

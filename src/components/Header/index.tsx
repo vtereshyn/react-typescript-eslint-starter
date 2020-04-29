@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 
 import s from './styles.scss';
 
-const Header: FunctionComponent<{}> = () => (
+const Header: FunctionComponent = () => (
   <header className={s.header}>
     <div className={s.container}>
       <h1 className={s.title}>React Typescript Starter</h1>
