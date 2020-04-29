@@ -35,8 +35,9 @@ module.exports = merge({
             loader: 'css-loader',
             options: {
               importLoaders: 1,
-              modules: true,
-              localIdentName: 'src-[path]___[name]__[local]'
+              modules: {
+                localIdentName: 'src-[path]___[name]__[local]'
+              }
             }
           },
           'postcss-loader',
