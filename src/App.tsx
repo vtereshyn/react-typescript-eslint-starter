@@ -1,9 +1,9 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, ReactNode } from 'react';
 
 import s from './assets/scss/app.scss';
 
 interface Props {
-  children: JSX.Element;
+  children: ReactNode;
 }
 
 const App: FunctionComponent<Props> = ({ children }) => (

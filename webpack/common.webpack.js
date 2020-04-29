@@ -28,7 +28,12 @@ module.exports = {
     rules: [
       {
         test: /\.(js|ts|jsx|tsx)$/,
-        use: ['babel-loader'],
+        use: [
+          'react-hot-loader/webpack',
+          {
+            loader: 'babel-loader'
+          }
+        ],
         exclude: /node_modules/
       },
       {
@@ -43,8 +48,9 @@ module.exports = {
             loader: 'css-loader',
             options: {
               importLoaders: 1,
-              modules: true,
-              localIdentName: 'src-[path]___[name]__[local]'
+              modules: {
+                localIdentName: 'src-[path]___[name]__[local]'
+              }
             }
           },
           'postcss-loader',
@@ -80,7 +86,7 @@ module.exports = {
       inlineSource: 'runtime~.+\\.js',
       chunksSortMode: 'none'
     }),
-    new InlineSourcePlugin(),
+    new InlineSourcePlugin(HtmlWebpackPlugin),
     new webpack.NamedModulesPlugin()
   ]
 };
